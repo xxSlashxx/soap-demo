@@ -1,0 +1,6 @@
+services:
+  products-service:
+    container_name: soap-demo
+    build: .
+    ports:
+      - "8080:8080"
